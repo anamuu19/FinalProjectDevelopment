@@ -1,0 +1,52 @@
+
+<div class="w-100 vh-100  pt-5">
+  <div class=" bg-white mx-auto p-3" style="width: 400px;">
+    <form [formGroup]="signForm">
+      <h2 style="justify-content:center ;">Personal Information</h2>
+
+
+        <!-- <div class="col-md-6"> -->
+          <div class="mb-5">
+            <label for="name">First Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter fname" formControlName="fname">
+          </div>
+        <!-- </div> -->
+
+        <!-- <div class="col-md-6"> -->
+          <div class="mb-5">
+            <label for="address">Last Name</label>
+            <input type="text" class="form-control" id="username" placeholder="Enter last name" formControlName="lname">
+          </div>
+        <!-- </div> -->
+
+
+
+        <!-- <div class="col-md-6"> -->
+          <div class="mb-5">
+            <label for="phone">Address</label>
+            <input type="text" class="form-control" id="address" placeholder="Enter the address" formControlName="address">
+          </div>
+
+          <div class="mb-5">
+            <label for="phone">Email</label>
+            <input type="text" class="form-control" id="email" placeholder="Enter the email" formControlName="email">
+          </div>
+
+          <div class="mb-5">
+            <label for="phone">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="Enter the password" formControlName="password">
+          </div>
+        <!-- </div> -->
+
+
+
+      <!-- <br> -->
+      <button type="submit" class="btn btn-primary mb-3 w-100" (click)="onSubmit()">Log In</button>
+      <!-- <br> -->
+      <!-- <span>You have already Account? <a routerLink="/">Log In</a></span> -->
+
+    </form>
+  </div>
+</div>
+<!-- </div> -->
+
